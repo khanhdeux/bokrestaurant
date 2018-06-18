@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'chantillybold';
+    src: url('../fonts/chantilly-bold-webfont.eot');
+    src: url('../fonts/chantilly-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chantilly-bold-webfont.woff2') format('woff2'),
+         url('../fonts/chantilly-bold-webfont.woff') format('woff'),
+         url('../fonts/chantilly-bold-webfont.ttf') format('truetype'),
+         url('../fonts/chantilly-bold-webfont.svg#chantillybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chantillylight';
+    src: url('../fonts/chantilly-light-webfont.eot');
+    src: url('../fonts/chantilly-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chantilly-light-webfont.woff2') format('woff2'),
+         url('../fonts/chantilly-light-webfont.woff') format('woff'),
+         url('../fonts/chantilly-light-webfont.ttf') format('truetype'),
+         url('../fonts/chantilly-light-webfont.svg#chantillylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

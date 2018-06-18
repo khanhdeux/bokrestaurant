@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<!--html manifest="custom-cache.manifest"-->
+<html>
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <title>bok - Ottenser Hauptstraße</title>
+        <meta name="description" content="bok - Ottenser Hauptstraße">
+        <meta name="author" content="Copyright © 2015 bok Handels GmbH">
+
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <!-- Apple Specific Metas
+        ================================================== -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />              <!-- moves the browser-addressbar up -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">     <!-- colors the statusbar in black -->
+
+        <!-- Favicons
+        ================================================== -->
+            <!-- Apple iOS -->
+            <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png?v=JynzbEYxlY">
+            <meta name="apple-mobile-web-app-title" content="bok">
+
+            <!-- Android -->
+            <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png?v=JynzbEYxlY" sizes="32x32">
+            <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png?v=JynzbEYxlY" sizes="192x192">
+            <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png?v=JynzbEYxlY" sizes="96x96">
+            <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png?v=JynzbEYxlY" sizes="16x16">
+            <link rel="manifest" href="img/favicon/manifest.json?v=JynzbEYxlY">
+
+            <!-- Desktop -->
+            <link rel="shortcut icon" href="img/favicon/favicon.ico?v=JynzbEYxlY">
+            
+            <!-- LiveTile for Win8 -->
+            <meta name="application-name" content="bok">
+            <meta name="msapplication-TileColor" content="#fbf4ea">
+            <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png?v=JynzbEYxlY">
+            <meta name="msapplication-config" content="img/favicon/browserconfig.xml?v=JynzbEYxlY">
+            <meta name="theme-color" content="#ffffff">
+
+        <!-- CSS
+        ================================================== -->
+        <link rel="stylesheet" href="css/custom-webfonts.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/photoswipe.css">
+        <link rel="stylesheet" href="css/default-skin/default-skin.css">
+        <link rel="stylesheet" href="css/bok-custom.css">
+    </head>
+
+    <body oncontextmenu="return false;" onmousedown="return false">
+       
+        <div class="container">
+
+            <!--div id="popup" class="shadowPopUp popup-big">
+                <a href="#" id="close" class="link"><div class="x"><i class="fa fa-times-circle"></i></div></a>
+                <div id="popupContent">
+                    <span class="text2"><br><b>Welcome back!</b>
+                    </span>
+
+                    <p class="text2">Das Warten hat ein Ende. Wir mel&shy;den uns mit neu&shy;em De&shy;sign und sicht&shy;ba&shy;rer Mo&shy;ti&shy;va&shy;ti&shy;on zu&shy;rück.
+                        Eines un&shy;serer neu&shy;en Ver&shy;än&shy;derun&shy;gen ist der fehl&shy;ende Tief&shy;kühl&shy;schrank. D.h. frische Ware wird um&shy;ge&shy;hend ver&shy;ar&shy;bei&shy;tet und ver&shy;braucht - un&shy;ser Leit&shy;satz.
+                    </p>
+
+                    <p class="text2">Lange Rede, kurzer Sinn: Über&shy;zeu&shy;gen Sie sich selbst und schau&shy;en Sie vor&shy;bei. 
+                        Wir freu&shy;en uns Sie ab so&shy;fort wie&shy;der in Altona be&shy;die&shy;nen zu dür&shy;fen!
+                    </p>
+
+                    <p class="text2">Bis bald,</br>Ihr Bok-Team</p>
+                </div>
+            </div-->
+
+            <!--Menu Mobile View
+            ====================-->
+            <nav class="visible-xs visible-sm">
+                <ul class="list-unstyled main-menu">
+                    <!--Include your navigation here-->
+                    <li class="text-right"><a href="#" id="nav-close"><i class="fa fa-chevron-left fa-lg"></i></a></li>
+                    <li><a class="link" href="index.html">Home</a></li>
+                    <li><a href="#">Standorte &<br />Speisekarte</a>
+                        <ul class="list-unstyled">
+                            <li class="sub-nav"><a class="link" href="schulterblatt.html">Schulterblatt</a></li>
+                            <li class="sub-nav"><a class="link" href="schanze.html">Schanzenstraße</a></li>
+                            <li class="sub-nav"><a class="link" href="ottensen.html">Ottenser Hauptstraße</a></li>
+                            <li class="sub-nav"><a class="link" href="holstenstr.html">Holstenstraße</a></li>
+                            <li class="sub-nav"><a class="link" href="wandsbek.html">Wandsbeker Chaussee I</a></li>
+                            <li class="sub-nav"><a class="link" href="wandsbek2.html">Wandsbeker Chaussee II</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://www.boklieferservice.de" target="_blank">Lieferservice</a></li>
+                    <li><a class="link" href="job.html">Mitarbeiter werden</a></li>
+                    <li><a class="link" href="news.html">News</a></li>
+                    <li><a class="link" href="reservierung.html">Tisch reservieren</a></li>
+                    <li><a class="link" href="kontakt.html">Kontakt</a></li>
+                    <li><a class="link" href="bewertung.html">bok bewerten</a></li>
+                    <li><a class="link" href="impressum.html">Impressum</a></li>
+                    <li><a class="link" href="disclaimer.html">Disclaimer</a></li>
+                </ul>
+            </nav>
+            
+            <div class="navbar navbar-inverse navbar-fixed-top visible-xs visible-sm">
+                <!--Include your brand here-->
+                <div class="navbar-header">
+                    <a id="nav-expander" class="nav-expander fixed">
+                        <div class="menu">
+                            <i class="fa fa-bars fa-lg white"></i> MENU
+                        </div>
+                    </a>
+                </div>
+                <a class="navbar-brand brand-img pull-right">
+                    <img class="img-responsive brandlogo" src="img/logo.png" alt="bok Logo" />
+                </a>
+            </div>
+            
+            <!--Menu Desktop View
+            =====================-->
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+                <div class="col-md-10 visible-xs visible-sm mobileSpace"></div>
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+                <div class="col-md-10 visible-md visible-lg">
+                    <img class="bok-logo biglogo" src="img/logo.png" width="183px" height="101px"/>
+                </div>
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1 visible-sm">
+                </div>
+                <div class="col-md-10 visible-sm headerDesktop" style="height:20px; margin-top:10px;">
+                </div>
+                <div class="col-md-1 visible-sm">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+                <div class="col-md-10 visible-md visible-lg headerDesktop">
+                    <div class="col-md-5ths"><a href="index.html">Willkommen bei bok</a></div>
+                    <div class="col-md-5ths subnav">
+                        <li>
+                            <a class="standorte">Standorte/Speisekarte</a>
+                            <ul class="list-unstyled">
+                                <li><a href="schulterblatt.html">Schulterblatt</a></li>
+                                <li><a href="schanze.html">Schanzenstraße</a></li>
+                                <li><a href="ottensen.html">Ottenser Hauptstraße</a></li>
+                                <li><a href="holstenstr.html">Holstenstraße</a></li>
+                                <li><a href="wandsbek.html">Wandsbeker Chaussee I</a></li>
+                                <li><a href="wandsbek2.html" style="border-radius:0 0 10px 10px;">Wandsbeker Chaussee II</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="col-md-5ths"><a href="http://www.boklieferservice.de" target="_blank">Lieferservice</a></div>
+                    <div class="col-md-5ths"><a href="job.html">Mitarbeiter werden</a></div>
+                    <div class="col-md-5ths"><a href="news.html">News</a></div>
+                </div>
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+            </div>
+
+
+            <!--Carousel
+            ============-->
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+                <div class="col-md-10 bgbok noSpace shadow">
+
+                    <div id="Carousel" class="carousel fade carousel-fade">
+                        <ol class="carousel-indicators">
+                            <li data-target="Carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="Carousel" data-slide-to="1"></li>
+                            <li data-target="Carousel" data-slide-to="2"></li>
+                            <li data-target="Carousel" data-slide-to="3"></li>
+                            <li data-target="Carousel" data-slide-to="4"></li>
+                            <li data-target="Carousel" data-slide-to="5"></li>
+                            <li data-target="Carousel" data-slide-to="6"></li>
+                            <li data-target="Carousel" data-slide-to="7"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive" src="img/header-teaser2a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teasera.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser3a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser4a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser5a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser7a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser8a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser9a.jpg" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="overlapping visible-md visible-lg"></div>
+                </div>
+                
+                <div class="overlapping visible-xs visible-sm"></div>
+
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+                
+                <div class="col-md-10 bgbok shadow2 someSpace">
+
+                    <!--Left Sidebar
+                    ================-->
+                    <div class="col-md-3 hidden-xs hidden-sm visible-md visible-lg">
+                        <div class="teaser teaserTop" >
+                            <a href="http://www.bok-lieferservice.de" target="_blank"><img class="shadow3 img-responsive" src="img/teaser1.png"/></a>
+                        </div>
+                        <div class="teaser" >
+                            <a href="reservierung.html"><img class="link shadow3 img-responsive" src="img/teaser2.png"/></a    >
+                        </div>
+                        <div class="teaser" >
+                            <a href="kontakt.html"><img class="link shadow3 img-responsive" src="img/kontakt.png"/></a>
+                        </div>
+                        <div class="teaser" >
+                            <a href="bewertung.html"><img class="link shadow3 img-responsive" src="img/bewerten.png"/></a>
+                        </div>
+                    </div>
+
+                    <!--Main Content
+                    ================-->
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-lg-12 visible-lg top1">
+                                <img class="imgS img-responsive" src="img/standorte/ottns_top.jpg"/>
+
+                                <div>
+                                    <div class="address">
+                                    </div>
+                                    <div class="addressText aT1">
+                                        <p class="text8">
+                                            <b>Asia Imbiss bok</b><br/>
+                                            Ottenser Hauptstraße 1<br/>
+                                            22765 Hamburg
+                                        </p>
+                                        <p class="text8">
+                                            Telefon 040 399 033 90<br/>
+                                            Telefax 040 398 085 00<br/>
+                                        </p>
+                                        <p class="text8">
+                                            Öffnungszeiten:<br/>
+                                            Montag - Sonntag 11.30 - 23.30 Uhr
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 visible-md top2">
+                                <img class="imgS img-responsive" src="img/standorte/ottns_top.jpg"/>
+
+                                <div>
+                                    <div class="address">
+                                    </div>
+                                    <div class="addressText aT2">
+                                        <p class="text8">
+                                            <b>Asia Imbiss bok</b><br/>
+                                            Ottenser Hauptstraße 1<br/>
+                                            22765 Hamburg
+                                        </p>
+                                        <p class="text8">
+                                            Telefon 040 399 033 90<br/>
+                                            Telefax 040 398 085 00<br/>
+                                        </p>
+                                        <p class="text8">
+                                            Öffnungszeiten:<br/>
+                                            Montag - Sonntag 11.30 - 23.30 Uhr
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 visible-sm top3">
+                                <img class="imgS img-responsive" src="img/standorte/ottns_top.jpg"/>
+
+                                <div>
+                                    <div class="address">
+                                    </div>
+                                    <div class="addressText aT3">
+                                        <p class="text8">
+                                            <b>Asia Imbiss bok</b><br/>
+                                            Ottenser Hauptstraße 1<br/>
+                                            22765 Hamburg
+                                        </p>
+                                        <p class="text8">
+                                            Telefon 040 399 033 90<br/>
+                                            Telefax 040 398 085 00<br/>
+                                        </p>
+                                        <p class="text8">
+                                            Öffnungszeiten:<br/>
+                                            Montag - Sonntag 11.30 - 23.30 Uhr
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 visible-xs">
+                                <p class="text1c">
+                                    bok Ottenser Hauptstraße
+                                </p>
+                            </div>
+                            <div class="col-xs-12 visible-xs">
+                                <div>
+                                    <div class="addressMText_ottns">
+                                        <p class="text8">
+                                            <b>Asia Imbiss bok</b><br/>
+                                            Ottenser Hauptstraße 1<br/>
+                                            22765 Hamburg
+                                        </p>
+                                        <p class="text8">
+                                            Telefon 040 399 033 90<br/>
+                                            Telefax 040 398 085 00<br/>
+                                        </p>
+                                        <p class="text8">
+                                            Öffnungszeiten:<br/>
+                                            Montag - Sonntag 11.30 - 23.30 Uhr
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-sm-7 visible-sm visible-md visible-lg">
+                                <div id="gmap" class="iframe">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2370.3191526614455!2d9.933019999999999!3d53.55207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1858604090937%3A0x33caabf75432a18a!2sOttenser+Hauptstra%C3%9Fe+1!5e0!3m2!1sde!2sde!4v1392779679794" height="380" frameborder="0" style="border:0; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;"></iframe>
+                                    <div class="mapSmall">
+                                        <small><a href="https://maps.google.de/maps?f=q&amp;source=embed&amp;hl=de&amp;geocode=&amp;q=Ottenser+Hauptstra%C3%9Fe+1&amp;aq=&amp;sll=53.560896,9.948056&amp;sspn=0.008539,0.016351&amp;ie=UTF8&amp;hq=&amp;hnear=Ottenser+Hauptstra%C3%9Fe+1,+22765+Hamburg&amp;t=m&amp;ll=53.567536,9.919882&amp;spn=0.01937,0.03253&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Größere Kartenansicht</a></small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 visible-md visible-lg">
+                                <p class="text1a">
+                                    bok Ottenser Hauptstraße
+                                </p>
+                                <ul class="info text9" type="disc">
+                                    <li>Sitzplätze: 70, Sommer-Terrasse: 90</li>
+                                    <li>Schneller, freundlicher Imbiss</li>
+                                    <li>Zubereitung aus tagesfrischen Zutaten</li>
+                                    <li>Wechselnder Mittagstisch</li>
+                                    <li>Angebot der Woche</li>
+                                </ul>
+                                <div class="col-md-11 noSpace">
+                                    <div class="spkLink spklg">
+                                        <a href="spkottensen.html" class="link">
+                                            <div class="linkwrapper">
+                                                <div class="linkIcon">
+                                                    <i class="fa fa-chevron-circle-right"></i>
+                                                </div>
+                                                <div class="linkTextb">
+                                                    <span class="spktext">SPEISEKARTE</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 visible-sm">
+                                <p class="text1a info2header">
+                                    bok Ottenser Hauptstraße
+                                </p>
+                                <ul class="info2 text9" type="disc">
+                                    <li>Sitzplätze: 70, Sommer-Terrasse: 90</li>
+                                    <li>Schneller, freundlicher Imbiss</li>
+                                    <li>Zubereitung aus tagesfrischen Zutaten</li>
+                                    <li>Wechselnder Mittagstisch</li>
+                                    <li>Angebot der Woche</li>
+                                </ul>
+                                <div class="spkLink spksm">
+                                    <a href="spkottensen.html" class="link">
+                                        <div class="linkwrapper">
+                                            <div class="linkIcon">
+                                                <i class="fa fa-chevron-circle-right"></i>
+                                            </div>
+                                            <div class="linkTextb">
+                                                <span class="spktext">SPEISEKARTE</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-7 visible-xs">
+                                <div id="gmap" class="iframe">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2370.3191526614455!2d9.933019999999999!3d53.55207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1858604090937%3A0x33caabf75432a18a!2sOttenser+Hauptstra%C3%9Fe+1!5e0!3m2!1sde!2sde!4v1392779679794" height="200" frameborder="0" style="border:0; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;"></iframe>
+                                    <div class="mapSmall">
+                                        <small><a href="https://maps.google.de/maps?f=q&amp;source=embed&amp;hl=de&amp;geocode=&amp;q=Ottenser+Hauptstra%C3%9Fe+1&amp;aq=&amp;sll=53.560896,9.948056&amp;sspn=0.008539,0.016351&amp;ie=UTF8&amp;hq=&amp;hnear=Ottenser+Hauptstra%C3%9Fe+1,+22765+Hamburg&amp;t=m&amp;ll=53.567536,9.919882&amp;spn=0.01937,0.03253&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Größere Kartenansicht</a></small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 visible-xs">
+                                <ul class="info3 text9" type="disc">
+                                    <li>Sitzplätze: 70, Sommer-Terrasse: 90</li>
+                                    <li>Schneller, freundlicher Imbiss</li>
+                                    <li>Zubereitung aus tagesfrischen Zutaten</li>
+                                    <li>Wechselnder Mittagstisch</li>
+                                    <li>Angebot der Woche</li>
+                                </ul>
+                                  
+                            </div>
+
+                            <div class="col-xs-12 visible-xs spk">
+                                <div class="spkLink">
+                                    <a href="spkottensen.html" class="link">
+                                        <div class="linkwrapper">
+                                            <div class="linkIcon">
+                                                <i class="fa fa-chevron-circle-right"></i>
+                                            </div>
+                                            <div class="linkTextb">
+                                                <span class="spktext">SPEISEKARTE</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 visible-xs space">
+                               
+                            </div>
+                        </div>
+                        
+                        <div class="bok-gallery" itemscope>
+                            <div class="row img-galerie">
+                                <div class="col-xs-4 col-md-4 mGalleryleft">
+                                    <figure itemprop="associatedMedia" itemscope>
+                                        <a href="img/standorte/ottns1.jpg" title="" itemprop="contentUrl" data-size="800x600">
+                                            <img class="img-responsive miniImg" src="img/standorte/ottns1_mini.jpg" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                        <figcaption itemprop="caption description"></figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-xs-4 col-md-4 mGallery">
+                                    <figure itemprop="associatedMedia" itemscope>
+                                        <a href="img/standorte/ottns2.jpg" title="" itemprop="contentUrl" data-size="800x600">
+                                            <img class="img-responsive miniImg" src="img/standorte/ottns2_mini.jpg" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                        <figcaption itemprop="caption description"></figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-xs-4 col-md-4 mGalleryright">
+                                    <figure itemprop="associatedMedia" itemscope>
+                                        <a href="img/standorte/ottns3.jpg" title="" itemprop="contentUrl" data-size="800x600">
+                                            <img class="img-responsive miniImg" src="img/standorte/ottns3_mini.jpg" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                        <figcaption itemprop="caption description"></figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-md-12 last"></div>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg"></div>
+                <div class="col-md-10 visible-md visible-lg">
+                    <div class="footer">
+                        <ul>
+                            <li><a href="disclaimer.html">Disclaimer</a></li>
+                            <li><a href="impressum.html">Impressum</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-1 visible-md visible-lg"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 visible-xs visible-sm visible-md visible-lg bottomSpace"></div>
+            </div>
+
+        </div><!-- /page main-->
+
+
+        <!-- Hidden div for Photoswipe -->
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+            <!-- Background of PhotoSwipe. 
+                 It's a separate element as animating opacity is faster than rgba(). -->
+            <div class="pswp__bg"></div>
+
+            <!-- Slides wrapper with overflow:hidden. -->
+            <div class="pswp__scroll-wrap">
+
+                <!-- Container that holds slides. 
+                    PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                    Don't modify these 3 pswp__item elements, data is added later on. -->
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+
+                <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                        <!--  Controls are self-explanatory. Order can be changed. -->
+                        <div class="pswp__counter"></div>
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                        <!-- element will get class pswp__preloader--active when preloader is running -->
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip"></div> 
+                    </div>
+
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+       
+        
+        <!-- External JavaScripts 
+        ================================================== -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+        <script src="js/photoswipe.min.js"></script>
+        <script src="js/photoswipe-ui-default.min.js"></script>
+        <script src="js/jquery.navgoco.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/popup.js"></script>
+		<script type="text/javascript" charset="utf-8">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-25692575-1', 'bokrestaurant.de');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>

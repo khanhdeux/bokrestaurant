@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<!--html manifest="custom-cache.manifest"-->
+<html>
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <title>bok - Schulterblatt</title>
+        <meta name="description" content="bok - Schulterblatt">
+        <meta name="author" content="Copyright © 2015 bok Handels GmbH">
+
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <!-- Apple Specific Metas
+        ================================================== -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />              <!-- moves the browser-addressbar up -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">     <!-- colors the statusbar in black -->
+
+        <!-- Favicons
+        ================================================== -->
+            <!-- Apple iOS -->
+            <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png?v=JynzbEYxlY">
+            <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png?v=JynzbEYxlY">
+            <meta name="apple-mobile-web-app-title" content="bok">
+
+            <!-- Android -->
+            <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png?v=JynzbEYxlY" sizes="32x32">
+            <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png?v=JynzbEYxlY" sizes="192x192">
+            <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png?v=JynzbEYxlY" sizes="96x96">
+            <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png?v=JynzbEYxlY" sizes="16x16">
+            <link rel="manifest" href="img/favicon/manifest.json?v=JynzbEYxlY">
+
+            <!-- Desktop -->
+            <link rel="shortcut icon" href="img/favicon/favicon.ico?v=JynzbEYxlY">
+            
+            <!-- LiveTile for Win8 -->
+            <meta name="application-name" content="bok">
+            <meta name="msapplication-TileColor" content="#fbf4ea">
+            <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png?v=JynzbEYxlY">
+            <meta name="msapplication-config" content="img/favicon/browserconfig.xml?v=JynzbEYxlY">
+            <meta name="theme-color" content="#ffffff">
+
+        <!-- CSS
+        ================================================== -->
+        <link rel="stylesheet" href="css/custom-webfonts.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/photoswipe.css">
+        <link rel="stylesheet" href="css/default-skin/default-skin.css">
+        <link rel="stylesheet" href="css/bok-custom.css">
+    </head>
+
+    <body oncontextmenu="return false;" onmousedown="return false">
+       
+        <div class="container">
+
+            <!--Menu Mobile View
+            ====================-->
+            <nav class="visible-xs visible-sm">
+                <ul class="list-unstyled main-menu">
+                    <!--Include your navigation here-->
+                    <li class="text-right"><a href="#" id="nav-close"><i class="fa fa-chevron-left fa-lg"></i></a></li>
+                    <li><a class="link" href="index.html">Home</a></li>
+                    <li><a href="#">Standorte &<br />Speisekarte</a>
+                        <ul class="list-unstyled">
+                            <li class="sub-nav"><a class="link" href="schulterblatt.html">Schulterblatt</a></li>
+                            <li class="sub-nav"><a class="link" href="schanze.html">Schanzenstraße</a></li>
+                            <li class="sub-nav"><a class="link" href="ottensen.html">Ottenser Hauptstraße</a></li>
+                            <li class="sub-nav"><a class="link" href="holstenstr.html">Holstenstraße</a></li>
+                            <li class="sub-nav"><a class="link" href="wandsbek.html">Wandsbeker Chaussee I</a></li>
+                            <li class="sub-nav"><a class="link" href="wandsbek2.html">Wandsbeker Chaussee II</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://www.boklieferservice.de" target="_blank">Lieferservice</a></li>
+                    <li><a class="link" href="job.html">Mitarbeiter werden</a></li>
+                    <li><a class="link" href="news.html">News</a></li>
+                    <li><a class="link" href="reservierung.html">Tisch reservieren</a></li>
+                    <li><a class="link" href="kontakt.html">Kontakt</a></li>
+                    <li><a class="link" href="bewertung.html">bok bewerten</a></li>
+                    <li><a class="link" href="impressum.html">Impressum</a></li>
+                    <li><a class="link" href="disclaimer.html">Disclaimer</a></li>
+                </ul>
+            </nav>
+            
+            <div class="navbar navbar-inverse navbar-fixed-top visible-xs visible-sm">
+                <!--Include your brand here-->
+                <div class="navbar-header">
+                    <a id="nav-expander" class="nav-expander fixed">
+                        <div class="menu">
+                            <i class="fa fa-bars fa-lg white"></i> MENU
+                        </div>
+                    </a>
+                </div>
+                <a class="navbar-brand brand-img pull-right">
+                    <img class="img-responsive brandlogo" src="img/logo.png" alt="bok Logo" />
+                </a>
+            </div>
+            
+            <!--Menu Desktop View
+            =====================-->
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+                <div class="col-md-10 visible-xs visible-sm mobileSpace"></div>
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+                <div class="col-md-10 visible-md visible-lg">
+                    <img class="bok-logo biglogo" src="img/logo.png" width="183px" height="101px"/>
+                </div>
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1 visible-sm">
+                </div>
+                <div class="col-md-10 visible-sm headerDesktop" style="height:20px; margin-top:10px;">
+                </div>
+                <div class="col-md-1 visible-sm">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+                <div class="col-md-10 visible-md visible-lg headerDesktop">
+                    <div class="col-md-5ths"><a href="index.html">Willkommen bei bok</a></div>
+                    <div class="col-md-5ths subnav">
+                        <li>
+                            <a class="standorte">Standorte/Speisekarte</a>
+                            <ul class="list-unstyled">
+                                <li><a href="schulterblatt.html">Schulterblatt</a></li>
+                                <li><a href="schanze.html">Schanzenstraße</a></li>
+                                <li><a href="ottensen.html">Ottenser Hauptstraße</a></li>
+                                <li><a href="holstenstr.html">Holstenstraße</a></li>
+                                <li><a href="wandsbek.html">Wandsbeker Chaussee I</a></li>
+                                <li><a href="wandsbek2.html" style="border-radius:0 0 10px 10px;">Wandsbeker Chaussee II</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="col-md-5ths"><a href="http://www.boklieferservice.de" target="_blank">Lieferservice</a></div>
+                    <div class="col-md-5ths"><a href="job.html">Mitarbeiter werden</a></div>
+                    <div class="col-md-5ths"><a href="news.html">News</a></div>
+                </div>
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+            </div>
+
+
+            <!--Carousel
+            ============-->
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+                <div class="col-md-10 bgbok noSpace shadow">
+
+                    <div id="Carousel" class="carousel fade carousel-fade">
+                        <ol class="carousel-indicators">
+                            <li data-target="Carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="Carousel" data-slide-to="1"></li>
+                            <li data-target="Carousel" data-slide-to="2"></li>
+                            <li data-target="Carousel" data-slide-to="3"></li>
+                            <li data-target="Carousel" data-slide-to="4"></li>
+                            <li data-target="Carousel" data-slide-to="5"></li>
+                            <li data-target="Carousel" data-slide-to="6"></li>
+                            <li data-target="Carousel" data-slide-to="7"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive" src="img/header-teaser2a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teasera.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser3a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser4a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser5a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser7a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser8a.jpg" />
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="img/header-teaser9a.jpg" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="overlapping visible-md visible-lg"></div>
+                </div>
+                
+                <div class="overlapping visible-xs visible-sm"></div>
+
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+                
+                <div class="col-md-10 bgbok shadow2 someSpace">
+
+                    <!--Left Sidebar
+                    ================-->
+                    <div class="col-md-3 hidden-xs hidden-sm visible-md visible-lg">
+                        <div class="teaser teaserTop" >
+                            <a href="http://www.bok-lieferservice.de" target="_blank"><img class="shadow3 img-responsive" src="img/teaser1.png"/></a>
+                        </div>
+                        <div class="teaser" >
+                            <a href="reservierung.html"><img class="link shadow3 img-responsive" src="img/teaser2.png"/></a    >
+                        </div>
+                        <div class="teaser" >
+                            <a href="kontakt.html"><img class="link shadow3 img-responsive" src="img/kontakt.png"/></a>
+                        </div>
+                        <div class="teaser" >
+                            <a href="bewertung.html"><img class="link shadow3 img-responsive" src="img/bewerten.png"/></a>
+                        </div>
+                    </div>
+
+                    <!--Main Content
+                    ================-->
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-lg-12 visible-lg top1">
+                                <img class="imgS img-responsive" src="img/standorte/schltrblt_top.jpg"/>
+
+                                <div>
+                                    <div class="address">
+                                    </div>
+                                    <div class="addressText aT1">
+                                        <p class="text8">
+                                            <b>bok Restaurant</b><br/>
+                                            Schulterblatt 3<br/>
+                                            20357 Hamburg
+                                        </p>
+                                        <p class="text8">
+                                            Telefon 040 431 900 70<br/>
+                                            Telefax 040 431 842 45<br/>
+                                        </p>
+                                        <p class="text8">
+                                            Öffnungszeiten:<br/>
+                                            Montag - Sonntag 12.00 - 23.30 Uhr
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 visible-md top2">
+                                <img class="imgS img-responsive" src="img/standorte/schltrblt_top.jpg"/>
+
+                                <div>
+                                    <div class="address">
+                                    </div>
+                                    <div class="addressText aT2">
+                                        <p class="text8">
+                                            <b>bok Restaurant</b><br/>
+                                            Schulterblatt 3<br/>
+                                            20357 Hamburg
+                                        </p>
+                                        <p class="text8">
+                                            Telefon 040 431 900 70<br/>
+                                            Telefax 040 431 842 45<br/>
+                                        </p>
+                                        <p class="text8">
+                                            Öffnungszeiten:<br/>
+                                            Montag - Sonntag 12.00 - 23.30 Uhr
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 visible-sm top3">
+                                <img class="imgS img-responsive" src="img/standorte/schltrblt_top.jpg"/>
+
+                                <div>
+                                    <div class="address">
+                                    </div>
+                                    <div class="addressText aT3">
+                                        <p class="text8">
+                                            <b>bok Restaurant</b><br/>
+                                            Schulterblatt 3<br/>
+                                            20357 Hamburg
+                                        </p>
+                                        <p class="text8">
+                                            Telefon 040 431 900 70<br/>
+                                            Telefax 040 431 842 45<br/>
+                                        </p>
+                                        <p class="text8">
+                                            Öffnungszeiten:<br/>
+                                            Montag - Sonntag 12.00 - 23.30 Uhr
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 visible-xs">
+                                <p class="text1c">
+                                    bok Schulterblatt
+                                </p>
+                            </div>
+                            <div class="col-xs-12 visible-xs">
+                                <div>
+                                    <div class="addressMText">
+                                        <p class="text8">
+                                            <b>bok Restaurant</b><br/>
+                                            Schulterblatt 3<br/>
+                                            20357 Hamburg
+                                        </p>
+                                        <p class="text8">
+                                            Telefon 040 431 900 70<br/>
+                                            Telefax 040 431 842 45<br/>
+                                        </p>
+                                        <p class="text8">
+                                            Öffnungszeiten:<br/>
+                                            Montag - Sonntag 12.00 - 23.30 Uhr
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-sm-7 visible-sm visible-md visible-lg">
+                                <div id="gmap" class="iframe">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d2369.907986290169!2d9.963529999999999!3d53.55941000000001!3m2!1i1024!2i768!4f13.1!2m1!1sSchulterblatt+3!5e0!3m2!1sde!2sde!4v1392778847450" height="380" frameborder="0" style="border:0; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;"></iframe>
+                                    <div class="mapSmall">
+                                        <small>
+                                            <a href="https://maps.google.de/maps?f=q&amp;source=embed&amp;hl=de&amp;geocode=&amp;q=schulterblatt+3&amp;sll=53.561877,9.963248&amp;sspn=0.007265,0.01399&amp;ie=UTF8&amp;hq=&amp;hnear=Schulterblatt+3,+Hamburg-Mitte+20357+Hamburg&amp;t=m&amp;ll=53.573754,9.948463&amp;spn=0.019367,0.03253&amp;z=14&amp;iwloc=A" style="color:#0000FF">Größere Kartenansicht</a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 visible-md visible-lg">
+                                <p class="text1a">
+                                    bok Schulterblatt
+                                </p>
+                                <ul class="info text9" type="disc">
+                                    <li>Sitzplätze: 170</li>
+                                    <li>Angesagtes Restaurant im legendären "Pickenpack"</li>
+                                    <li>Moderne Architektur in schönem Altbau</li>
+                                    <li>Alles wird frisch zubereitet</li>
+                                    <li>Große Wein-Auswahl von unserem Lieferanten Scarpovino</li>
+                                </ul>
+                                <div class="col-md-11 noSpace">
+                                    <div class="spkLink spklg visible-lg">
+                                        <a href="spkmschulterblatt.html" class="link">
+                                            <div class="linkwrapper">
+                                                <div class="linkIcon">
+                                                    <i class="fa fa-chevron-circle-right"></i>
+                                                </div>
+                                                <div class="linkTexta">
+                                                    <span class="spktext">MITTAGSKARTE</span></br>
+                                                    <span class="time">12:00 - 17:00</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="spkLink spkmd visible-md">
+                                        <a href="spkmschulterblatt.html" class="link">
+                                            <div class="linkwrapper">
+                                                <div class="linkIcon">
+                                                    <i class="fa fa-chevron-circle-right"></i>
+                                                </div>
+                                                <div class="linkTexta">
+                                                    <span class="spktext">MITTAGSKARTE</span></br>
+                                                    <span class="time">12:00 - 17:00</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="spkLink spklg">
+                                        <a href="spkaschulterblatt.html" class="link">
+                                            <div class="linkwrapper">
+                                                <div class="linkIcon">
+                                                    <i class="fa fa-chevron-circle-right"></i>
+                                                </div>
+                                                <div class="linkTexta">
+                                                    <span class="spktext">ABENDKARTE</span></br>
+                                                    <span class="time">17:00 - 23:30</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 visible-sm">
+                                <p class="text1a info2header">
+                                    bok Schulterblatt
+                                </p>
+                                <ul class="info2 text9" type="disc">
+                                    <li>Sitzplätze: 170</li>
+                                    <li>Angesagtes Restaurant im legendären "Pickenpack"</li>
+                                    <li>Moderne Architektur in schönem Altbau</li>
+                                    <li>Alles wird frisch zubereitet</li>
+                                    <li>Große Wein-Auswahl von unserem Lieferanten Scarpovino</li>
+                                </ul>
+                                <div class="spkLink spksm">
+                                    <a href="spkmschulterblatt.html" class="link">
+                                        <div class="linkwrapper">
+                                            <div class="linkIcon">
+                                                <i class="fa fa-chevron-circle-right"></i>
+                                            </div>
+                                            <div class="linkTexta">
+                                                <span class="spktext">MITTAGSKARTE</span></br>
+                                                <span class="time">12:00 - 17:00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="spkLink spksm">
+                                    <a href="spkaschulterblatt.html" class="link">
+                                        <div class="linkwrapper">
+                                            <div class="linkIcon">
+                                                <i class="fa fa-chevron-circle-right"></i>
+                                            </div>
+                                            <div class="linkTexta">
+                                                <span class="spktext">ABENDKARTE</span></br>
+                                                <span class="time">17:00 - 23:30</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-7 visible-xs">
+                                <div id="gmap" class="iframe">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d2369.907986290169!2d9.963529999999999!3d53.55941000000001!3m2!1i1024!2i768!4f13.1!2m1!1sSchulterblatt+3!5e0!3m2!1sde!2sde!4v1392778847450" height="200" frameborder="0" style="border:0; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;"></iframe>
+                                    <div class="mapSmall">
+                                        <small>
+                                            <a href="https://maps.google.de/maps?f=q&amp;source=embed&amp;hl=de&amp;geocode=&amp;q=schulterblatt+3&amp;sll=53.561877,9.963248&amp;sspn=0.007265,0.01399&amp;ie=UTF8&amp;hq=&amp;hnear=Schulterblatt+3,+Hamburg-Mitte+20357+Hamburg&amp;t=m&amp;ll=53.573754,9.948463&amp;spn=0.019367,0.03253&amp;z=14&amp;iwloc=A" style="color:#0000FF">Größere Kartenansicht</a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 visible-xs">
+                                <ul class="info3 text9" type="disc">
+                                    <li>Sitzplätze: 170</li>
+                                    <li>Angesagtes Restaurant im legendären "Pickenpack"</li>
+                                    <li>Moderne Architektur in schönem Altbau</li>
+                                    <li>Alles wird frisch zubereitet</li>
+                                    <li>Große Wein-Auswahl von unserem Lieferanten Scarpovino</li>
+                                </ul>
+                                  
+                            </div>
+
+                            <div class="col-xs-12 visible-xs spk">
+                                <div class="spkLink">
+                                    <a href="spkmschulterblatt.html" class="link">
+                                        <div class="linkwrapper">
+                                            <div class="linkIcon">
+                                                <i class="fa fa-chevron-circle-right"></i>
+                                            </div>
+                                            <div class="linkTexta">
+                                                <span class="spktext">MITTAGSKARTE</span></br>
+                                                <span class="time">12:00 - 17:00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="spkLink">
+                                    <a href="spkaschulterblatt.html" class="link">
+                                        <div class="linkwrapper">
+                                            <div class="linkIcon">
+                                                <i class="fa fa-chevron-circle-right"></i>
+                                            </div>
+                                            <div class="linkTexta">
+                                                <span class="spktext">ABENDKARTE</span></br>
+                                                <span class="time">17:00 - 23:30</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 visible-xs space">
+                               
+                            </div>
+                        </div>
+                        
+                        <div class="bok-gallery" itemscope>
+                            <div class="row img-galerie">
+                                <div class="col-xs-4 col-md-4 mGalleryleft">
+                                    <figure itemprop="associatedMedia" itemscope>
+                                        <a href="img/standorte/schltrblt1.jpg" title="" itemprop="contentUrl" data-size="800x600">
+                                            <img class="img-responsive miniImg" src="img/standorte/schltrblt1_mini.jpg" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                        <figcaption itemprop="caption description"></figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-xs-4 col-md-4 mGallery">
+                                    <figure itemprop="associatedMedia" itemscope>
+                                        <a href="img/standorte/schltrblt2.jpg" title="" itemprop="contentUrl" data-size="800x600">
+                                            <img class="img-responsive miniImg" src="img/standorte/schltrblt2_mini.jpg" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                        <figcaption itemprop="caption description"></figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-xs-4 col-md-4 mGalleryright">
+                                    <figure itemprop="associatedMedia" itemscope>
+                                        <a href="img/standorte/schltrblt3.jpg" title="" itemprop="contentUrl" data-size="800x600">
+                                            <img class="img-responsive miniImg" src="img/standorte/schltrblt3_mini.jpg" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                        <figcaption itemprop="caption description"></figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-md-12 last"></div>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-md-1 visible-md visible-lg">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-1 visible-md visible-lg"></div>
+                <div class="col-md-10 visible-md visible-lg">
+                    <div class="footer">
+                        <ul>
+                            <li><a href="disclaimer.html">Disclaimer</a></li>
+                            <li><a href="impressum.html">Impressum</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-1 visible-md visible-lg"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 visible-xs visible-sm visible-md visible-lg bottomSpace"></div>
+            </div>
+
+        </div><!-- /page main-->
+
+
+        <!-- Hidden div for Photoswipe -->
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+            <!-- Background of PhotoSwipe. 
+                 It's a separate element as animating opacity is faster than rgba(). -->
+            <div class="pswp__bg"></div>
+
+            <!-- Slides wrapper with overflow:hidden. -->
+            <div class="pswp__scroll-wrap">
+
+                <!-- Container that holds slides. 
+                    PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                    Don't modify these 3 pswp__item elements, data is added later on. -->
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+
+                <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                        <!--  Controls are self-explanatory. Order can be changed. -->
+                        <div class="pswp__counter"></div>
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                        <!-- element will get class pswp__preloader--active when preloader is running -->
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip"></div> 
+                    </div>
+
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+       
+        
+        <!-- External JavaScripts 
+        ================================================== -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+        <script src="js/photoswipe.min.js"></script>
+        <script src="js/photoswipe-ui-default.min.js"></script>
+        <script src="js/jquery.navgoco.js"></script>
+        <script src="js/custom.js"></script>
+		<script type="text/javascript" charset="utf-8">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-25692575-1', 'bokrestaurant.de');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>
