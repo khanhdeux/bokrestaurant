@@ -314,14 +314,14 @@ body.nav-expanded {
 }
 
 .subnav li:hover > ul li {
-  width:212px!important;
+  width:228px!important;
   height: 36px;
   overflow: visible;
   padding: 0;
 }
 
 .subnav ul li a{
-  width:212px!important;
+  width:228px!important;
   height: 37px!important;
   background:#fbf4ea!important;
   text-align:left;
