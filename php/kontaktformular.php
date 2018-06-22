@@ -4,7 +4,7 @@
 <body>
 	<?php
 		if(isset($_POST['name']) || isset($_POST['email1']) || isset($_POST['betreff']) || isset($_POST['text'])){
-			$Empfaenger = "kundenservice@bokrestaurant.de";
+			$Empfaenger = "kundenservice@bok.de";
 			$email_a = $_REQUEST['email1'];
 
 			if(empty($_REQUEST['name']) || empty($_REQUEST['email1']) || empty($_REQUEST['text'])){
